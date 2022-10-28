@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main - entry point to the program
+ * main - entry point to the program
  *
- *Return: 0 success
+ * Return: 0 (success)
  */
 
 int main(void)
