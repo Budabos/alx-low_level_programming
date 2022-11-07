@@ -1,19 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints all argc
- * @argc: argument count
- * @argv: argument vector
- * Return: Always 0 if success
+ * main - enter point
+ * @argc: holds number of arg
+ * @argv: holds args
+ * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
-	int a;
+	int count;
 
-	for (a = 0; a < argc; a++)
-	{
-		printf("%s\n", argv[1]);
-	}
+	for (count = 0; count < argc; count++)
+		printf("%s\n", argv[count]);
 	return (0);
 }
